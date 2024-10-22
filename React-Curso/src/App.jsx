@@ -5,7 +5,6 @@ import './App.css';
 import ComponenteClass from './componentes/ComponenteClass';
 import ComponenteFuncional from './componentes/ComponenteFuncional';
 import Propiedades from './componentes/Propiedades';
-import { componentePropriedad } from './componentes/Propiedades';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -33,6 +32,7 @@ function App() {
           objeto={{nombre:"julio", email:"juliomaluco14@gmail.com"}}
           fucion={(n1,n2)=>n1+n2}
           elementoReact={<i>elemento React desde props</i>}
+          componenteReact={<ComponenteClass msg="Componente desde componente props"/>}
           />
       </section>
     </>

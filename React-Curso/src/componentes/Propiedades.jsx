@@ -1,8 +1,8 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 export default function Propiedades(props){
     return <div>
-            <h2>{props.porDefeito}</h2>
+            <h2>las Props</h2>
             <ul>
                 <li>{props.cadena}</li>
                 <li>{props.numero}</li>
@@ -11,16 +11,18 @@ export default function Propiedades(props){
                 <li>{"Nombre: " + props.objeto.nombre + ", Email: " + props.objeto.email}</li>
                 <li>{"funcion de sumar desde prop: " + props.fucion(7,10)}</li>
                 <li>{props.elementoReact}</li>
-                <li>{props.componente}</li>
+                <li>{props.componenteReact}</li>
             </ul>
            </div>
 }
 
-export const componentePropriedad = (props)=>{
-    return props.n1 * props.n2 
- }
 
-// para definir propiedades por defeitos, sen precisar definirlas en los compononetes.
-Propiedades.defaultProps = {
-    porDefeito:"las Props"
+
+// para definir propiedades por defeitos, sen precisar definirlas en los compononetes. dejara de ser usada
+// Propiedades.defaultProps = {
+//     porDefeito:"las Props",
+// }
+
+Propiedades.propTypes = {
+    numero:PropTypes.number
 }
