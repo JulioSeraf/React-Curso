@@ -5,9 +5,9 @@ import './App.css';
 import ComponenteClass from './componentes/ComponenteClass';
 import ComponenteFuncional from './componentes/ComponenteFuncional';
 import Propiedades from './componentes/Propiedades';
+import Estado from './componentes/Estado';
+import RederizadoCondicional from './componentes/RenderizadoCondicional';
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -34,6 +34,10 @@ function App() {
           elementoReact={<i>elemento React desde props</i>}
           componenteReact={<ComponenteClass msg="Componente desde componente props"/>}
           />
+          <br/>
+          <Estado/>
+          <br />
+          <RederizadoCondicional/>
       </section>
     </>
   )
