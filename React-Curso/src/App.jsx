@@ -7,6 +7,7 @@ import ComponenteFuncional from './componentes/ComponenteFuncional';
 import Propiedades from './componentes/Propiedades';
 import Estado from './componentes/Estado';
 import RederizadoCondicional from './componentes/RenderizadoCondicional';
+import RederizadoElementos from './componentes/RenderizadoElementos';
 function App() {
   return (
     <>
@@ -38,6 +39,8 @@ function App() {
           <Estado/>
           <br />
           <RederizadoCondicional/>
+          <br />
+          <RederizadoElementos/>
       </section>
     </>
   )
