@@ -8,6 +8,7 @@ import Propiedades from './componentes/Propiedades';
 import Estado from './componentes/Estado';
 import RederizadoCondicional from './componentes/RenderizadoCondicional';
 import RederizadoElementos from './componentes/RenderizadoElementos';
+import EventoBinding from './componentes/Evento-binding';
 function App() {
   return (
     <>
@@ -41,6 +42,8 @@ function App() {
           <RederizadoCondicional/>
           <br />
           <RederizadoElementos/>
+          <br />
+          <EventoBinding/>
       </section>
     </>
   )
