@@ -10,6 +10,7 @@ import RederizadoCondicional from './componentes/RenderizadoCondicional';
 import RederizadoElementos from './componentes/RenderizadoElementos';
 import EventoBindingES6 from './componentes/Evento-binding';
 import {EventosPropertyInitializersES7,MasSobreEventos} from './componentes/EventosPropertyInitializers';
+import Padre from './componentes/ComunicacionComponentes';
 function App() {
   return (
     <>
@@ -49,7 +50,8 @@ function App() {
           <EventosPropertyInitializersES7/>
           <hr />
           <MasSobreEventos/>
-          
+          <hr />
+          <Padre/>
           
       </section>
     </>
