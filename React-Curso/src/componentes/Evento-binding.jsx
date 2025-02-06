@@ -2,7 +2,7 @@ import React,{Component} from "react";
 
 
 
-export default class EventoBinding extends Component{
+export default class EventoBindingES6 extends Component{
     constructor(props){
         super(props);
         this.state = {
