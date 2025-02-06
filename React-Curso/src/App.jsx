@@ -9,7 +9,7 @@ import Estado from './componentes/Estado';
 import RederizadoCondicional from './componentes/RenderizadoCondicional';
 import RederizadoElementos from './componentes/RenderizadoElementos';
 import EventoBindingES6 from './componentes/Evento-binding';
-import EventosPropertyInitializersES7 from './componentes/EventosPropertyInitializers';
+import {EventosPropertyInitializersES7,MasSobreEventos} from './componentes/EventosPropertyInitializers';
 function App() {
   return (
     <>
@@ -24,7 +24,7 @@ function App() {
       </div>
       <section>
           <ComponenteClass msg="Componenete desde una prop"/>
-          <br />
+          <hr />
           <ComponenteFuncional msg="Componente funcional desde una prop"/>
           <hr />
           <Propiedades 
@@ -37,16 +37,19 @@ function App() {
           elementoReact={<i>elemento React desde props</i>}
           componenteReact={<ComponenteClass msg="Componente desde componente props"/>}
           />
-          <br/>
+          <hr/>
           <Estado/>
-          <br />
+          <hr />
           <RederizadoCondicional/>
-          <br />
+          <hr />
           <RederizadoElementos/>
-          <br />
+          <hr />
           <EventoBindingES6/>
-          <br />
+          <hr />
           <EventosPropertyInitializersES7/>
+          <hr />
+          <MasSobreEventos/>
+          
           
       </section>
     </>
