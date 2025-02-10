@@ -1,7 +1,7 @@
 import React,{Component} from "react";
 import data from "../helpers/RenderizadoElementos.json";
 
-console.log(data)
+// console.log(data)
 
 function ElementoLista(props){
     return(

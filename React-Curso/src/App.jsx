@@ -11,6 +11,7 @@ import RederizadoElementos from './componentes/RenderizadoElementos';
 import EventoBindingES6 from './componentes/Evento-binding';
 import {EventosPropertyInitializersES7,MasSobreEventos} from './componentes/EventosPropertyInitializers';
 import Padre from './componentes/ComunicacionComponentes';
+import CicloVida from './componentes/CicloDeVida';
 function App() {
   return (
     <>
@@ -52,6 +53,8 @@ function App() {
           <MasSobreEventos/>
           <hr />
           <Padre/>
+          <hr />
+          <CicloVida/>
           
       </section>
     </>
