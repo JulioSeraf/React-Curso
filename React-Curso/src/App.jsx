@@ -12,6 +12,7 @@ import EventoBindingES6 from './componentes/Evento-binding';
 import {EventosPropertyInitializersES7,MasSobreEventos} from './componentes/EventosPropertyInitializers';
 import Padre from './componentes/ComunicacionComponentes';
 import CicloVida from './componentes/CicloDeVida';
+import AjaxApis from './componentes/AjaxApis';
 function App() {
   return (
     <>
@@ -55,7 +56,8 @@ function App() {
           <Padre/>
           <hr />
           <CicloVida/>
-          
+          <hr />
+          <AjaxApis/>
       </section>
     </>
   )
