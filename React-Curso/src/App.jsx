@@ -13,6 +13,7 @@ import {EventosPropertyInitializersES7,MasSobreEventos} from './componentes/Even
 import Padre from './componentes/ComunicacionComponentes';
 import CicloVida from './componentes/CicloDeVida';
 import AjaxApis from './componentes/AjaxApis';
+import ContadorHooks from './componentes/ContadorHooks';
 function App() {
   return (
     <>
@@ -58,6 +59,8 @@ function App() {
           <CicloVida/>
           <hr />
           <AjaxApis/>
+          <hr />
+          <ContadorHooks/>
       </section>
     </>
   )

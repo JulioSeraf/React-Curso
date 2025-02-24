@@ -13,7 +13,7 @@ export default class AjaxApis extends Component{
         pokemones:[]
     };
     async componentDidMount(){
-        let url ="https://pokeapi.co/api/v2/pokemon/?limit=20&offset=20";
+        let url ="https://pokeapi.co/api/v2/pokemon/";
         await fetch(url).
         then(res => res.json()).
         then(json => {
@@ -41,7 +41,7 @@ export default class AjaxApis extends Component{
     render(){
         return(<>
         <h2>Peticiones Asíncronas en Componentes de class</h2>
-        {this.state.pokemones.map(el => <Pokemon key={el.id} name={el.name} img={el.img}/>)}
+        {this.state.pokemones.length === 0 ? <p>Cargando...</p>: this.state.pokemones.map(pokemon => <Pokemon key={pokemon.id} name={pokemon.name} img={pokemon.img}/>)}
         </>)
     }
 }
