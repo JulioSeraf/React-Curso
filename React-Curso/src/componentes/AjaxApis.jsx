@@ -28,7 +28,7 @@ export default class AjaxApis extends Component{
                             };
                             let pokemones = [...this.state.pokemones,pokemon];
                             this.setState({pokemones});
-                            console.log(this.state.pokemones)
+                            // console.log(this.state.pokemones)
                         }) 
                         );
         }).catch(error => console.error(error));
