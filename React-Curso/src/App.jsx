@@ -15,6 +15,7 @@ import CicloVida from './componentes/CicloDeVida';
 import AjaxApis from './componentes/AjaxApis';
 import ContadorHooks from './componentes/ContadorHooks';
 import ScrollHooks from './componentes/ScrollHooks';
+import RelojHooks from './componentes/RelojHooks';
 function App() {
   return (
     <>
@@ -64,6 +65,8 @@ function App() {
           <ContadorHooks/>
           <hr />
           <ScrollHooks/>
+          <hr />
+          <RelojHooks/>
       </section>
     </>
   )

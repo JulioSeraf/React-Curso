@@ -1,8 +1,6 @@
 import React,{useState, useEffect} from "react";
-import { use } from "react";
-
 export default function ScrollHooks(){
-    const [scrollY, setScrollY] = useState(0);
+    const [scrollY, setScrollY]= useState(0);
 
     useEffect(()=>{
         console.log("FASE DE MONTAJE");
