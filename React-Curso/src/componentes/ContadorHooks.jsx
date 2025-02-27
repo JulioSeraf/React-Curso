@@ -8,7 +8,7 @@ export default function ContadorHooks(props){
     return(
         <>
         <h2>Contador Hooks - useState</h2>
-        <p>Contador de {props.titulo}</p>
+        {/* <p>Contador de {props.titulo}</p> */}
         <div>{contador}</div>
         <nav>
             <button onClick={()=> setContador(contador + 1)}>Sumar</button>
@@ -18,6 +18,6 @@ export default function ContadorHooks(props){
     );
 };
 
-ContadorHooks.defaultProps={
-    titulo:"Clicks"
-};
+// ContadorHooks.defaultProps={
+//     titulo:"Clicks"
+// };
