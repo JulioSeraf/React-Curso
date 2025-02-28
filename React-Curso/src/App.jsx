@@ -16,6 +16,7 @@ import AjaxApis from './componentes/AjaxApis';
 import ContadorHooks from './componentes/ContadorHooks';
 import ScrollHooks from './componentes/ScrollHooks';
 import RelojHooks from './componentes/RelojHooks';
+import AjaxApisHooks from './componentes/AjaxApisHooks';
 function App() {
   return (
     <>
@@ -67,6 +68,8 @@ function App() {
           <ScrollHooks/>
           <hr />
           <RelojHooks/>
+          <hr />
+          <AjaxApisHooks/>
       </section>
     </>
   )
